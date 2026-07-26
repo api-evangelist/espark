@@ -1,7 +1,17 @@
 aid: espark
 name: eSpark
-description: eSpark is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  eSpark is a K-5 adaptive learning platform that extends a district's core
+  reading and math programs with differentiated, standards-aligned practice in
+  reading, math, and writing. The platform uses adaptive lesson sequencing that
+  adjusts difficulty to each student's performance, interest-based content, and
+  real-time feedback to deliver personalized instruction, and it reports back to
+  teachers and administrators on student progress. eSpark serves 10,000+ schools
+  and districts nationwide and rosters students through Clever, ClassLink,
+  Google Classroom, and QR-code sign-in. eSpark was surfaced as a portfolio
+  company of 500 Global and added to the API Evangelist network; it publishes no
+  public developer API, so this profile captures company identity, its public
+  web properties, and probed domain-security posture rather than API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/espark/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.esparklearning.com/app/uploads/2024/07/es-child-brain-3.svg
 tags:
 - Company
+- Education
+- EdTech
+- K-12
+- Adaptive Learning
+- Reading
+- Math
+- Rostering
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://esparklearning.com
+- type: Blog
+  url: https://www.esparklearning.com/blog/
+- type: Support
+  url: https://support.esparklearning.com/en/
+- type: SignUp
+  url: https://www.esparklearning.com/get-started/
+- type: Login
+  url: https://student.esparklearning.com/student/login
+- type: PrivacyPolicy
+  url: https://www.esparklearning.com/privacy/
+- type: TermsOfService
+  url: https://www.esparklearning.com/terms/
+- type: GitHubOrganization
+  url: https://github.com/eSpark
+- type: DomainSecurity
+  url: security/espark-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
